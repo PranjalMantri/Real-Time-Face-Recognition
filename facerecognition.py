@@ -16,7 +16,7 @@ try:
 
         cv2.imshow('video', img)
         key = cv2.waitKey(30) & 0xFF
-        if key == 27:
+        if key == 27:    #Press Esc to exit
             break
 finally:
     cap.release()
